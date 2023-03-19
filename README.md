@@ -1,7 +1,26 @@
 # Task list
-
+![List to do](public/Animation2.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Demo
+https://kingapalijewska.github.io/todo-list-react/
+
+## Description
+This is my first task List Manager. Page is written  in js with BEM convention. In this website you can add your task list, mark them after finish them, hide them if you want to see just tasks to do or just remove them.
+
+## Technologies
+- HTML
+- CSS 
+- JavaScript
+- BEM convention
+- ES6+
+- Grid
+- Media-queries
+- Git
+- Flex
+- Media queiries
+- Create React App
 
 ## Available Scripts
 

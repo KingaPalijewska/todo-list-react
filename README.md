@@ -13,13 +13,12 @@ This is my first task List Manager. Page is written  in js with BEM convention. 
 - HTML
 - CSS 
 - JavaScript
-- BEM convention
+- Styled Components
 - ES6+
 - Grid
 - Media-queries
 - Git
 - Flex
-- Media queiries
 - Create React App
 
 ## Available Scripts

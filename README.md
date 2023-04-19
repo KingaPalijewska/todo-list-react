@@ -20,6 +20,7 @@ This is my first task List Manager. Page is written  in js with BEM convention. 
 - Git
 - Flex
 - Create React App
+- localStorage
 
 ## Available Scripts
 

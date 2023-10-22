@@ -1,8 +1,6 @@
-import React from "react";
-import Tasks from "./features/tasks/Tasks";
+import TasksPage from "./features/tasks/tasks/TasksPage";
 import Task from "./features/tasks/TaskPage";
-import Author from "./features/author/Author";
-
+import AuthorPage from "./features/author/AuthorPage";
 import {
     HashRouter
     Switch,
@@ -21,10 +19,10 @@ export default () => (
                 <Task />
             </Route>
             <Route path={toTask()}>
-                <Tasks />
+                <TasksPage />
             </Route>
             <Route path={toAuthor()}>
-                <Author />
+                <AuthorPage />
             </Route>
             <Route>
                 <Redirect to={toTaska()} />

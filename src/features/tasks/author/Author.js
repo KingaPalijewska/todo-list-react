@@ -8,7 +8,14 @@ export default () => (
         <Section
             title="Kinga Palijewska"
             body={
-                <> nana</>
+                <>
+                    <p>
+                        <strong> Moją ogromną pasją jest</strong>
+                    </p>
+                    <p>
+                        Nie zdajecie sobie sprawy<em>jak bardzo</em>muzyka
+                    </p>
+                </>
             }
         />
     </Container>

@@ -1,11 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-`;
-
-export const Button = styled.button`
+export default styled.button`
     background: transparent;
     color: ${({ theme }) => theme.color.teal};
     border: none;
@@ -29,4 +24,3 @@ export const Button = styled.button`
         color: ${({ theme }) => theme.color.silver};
     }
 `;
-

@@ -3,11 +3,12 @@ import {
   toggleTaskDone,
   removeTask,
   selectHideDone
-} from "../tasksSlice";
-import { List, Item, Content, Button } from "./styled";
+} from "../../tasksSlice";
+import { List, Item, Content, Button, StyledLink }
+  from "./styled";
 import { useSelector, useDispatch } from "react-redux";
 import { toTask } from "../../../../routes";
-import searchQueryParamName from "../searchQueryParamNam";
+import searchQueryParamName from "../searchQueryParamName";
 import { useQueryParameter } from "../queryParameters";
 
 const TaskList = () => {

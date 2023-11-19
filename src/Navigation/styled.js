@@ -20,8 +20,8 @@ text-decoration: none;
 
 export const List = styled.ul`
 background: ${({ theme }) => theme.color.teal};
-margin:0;
-padding:0;
+margin: 0;
+padding: 0;
 display: flex;
 justify-content: center;
 list-style: none;

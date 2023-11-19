@@ -1,12 +1,13 @@
-import TasksPage from "./features/tasks/tasks/TasksPage";
+import TasksPage from "./features/tasks/TasksPage";
 import Task from "./features/tasks/TaskPage";
-import AuthorPage from "./features/author/AuthorPage";
+import AuthorPage from "./features/taska/author/AuthorPage";
 import {
-    HashRouter
+    HashRouter,
     Switch,
     Route,
     Redirect,
 } from "react-router-dom";
+
 import { toAuthor, toTask, toTasks } from "./routes";
 import Navigation from "./Navigation";
 
@@ -18,14 +19,14 @@ export default () => (
             <Route path={toTask()}>
                 <Task />
             </Route>
-            <Route path={toTask()}>
+            <Route path={toTasks()}>
                 <TasksPage />
             </Route>
             <Route path={toAuthor()}>
                 <AuthorPage />
             </Route>
             <Route>
-                <Redirect to={toTaska()} />
+                <Redirect to={toTasks()} />
             </Route>
         </Switch>
     </HashRouter>

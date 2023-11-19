@@ -13,7 +13,7 @@ export const useReplaceQueryParameter = () => {
     return ({ key, value }) => {
         const searchParams = new URLSearchParams(location.search);
 
-        if (value === udefined) {
+        if (value === undefined) {
             searchParams.delete(key);
         } else {
             searchParams.set(key, value);
